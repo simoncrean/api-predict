@@ -16,7 +16,7 @@ help:
 	@echo "  make compose-down - Stop Docker Compose"
 
 # Application name and version
-APP_NAME := api-predict
+APP_NAME := depin-api
 VERSION := 1.0.0
 BUILD_TIME := $(shell date +%Y-%m-%d_%H:%M:%S)
 GIT_COMMIT := $(shell git rev-parse --short HEAD 2>/dev/null || echo "unknown")

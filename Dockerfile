@@ -53,5 +53,9 @@ USER appuser:appuser
 # Expose port
 EXPOSE 8080
 
+# Health check
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+  CMD ["/app", "-health-check"] || exit 1
+
 # Run the binary
 ENTRYPOINT ["/app"]

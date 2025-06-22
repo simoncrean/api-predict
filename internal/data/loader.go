@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/simoncrean/api-predict/internal/models"
+	"api-predict/internal/models"
 )
 
 // Loader handles loading DePIN project data from CSV files

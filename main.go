@@ -137,7 +137,7 @@ func setupRouter(handlers *api.Handlers) *gin.Engine {
 	// Root endpoint
 	router.GET("/", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
-			"service": "DePIN Compatibility API",
+			"service": "DePIN Resource Predict API",
 			"version": "1.0.0",
 			"docs":    "/api/v1/docs",
 			"health":  "/api/v1/health",

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/simoncrean/api-predict/internal/models"
+	"api-predict/internal/models"
 )
 
 // CompatibilityService handles DePIN compatibility analysis
