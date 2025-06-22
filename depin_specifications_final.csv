@@ -1,0 +1,9 @@
+project_name,project_type,node_type,cpu_cores_min,cpu_architecture,ram_gb_min,ram_gb_recommended,storage_gb_min,storage_type,gpu_required,gpu_vram_gb_min,gpu_requirements,network_speed_mbps_min,network_type,supported_os,blockchain_network,token_symbol,estimated_monthly_cost_usd_min,estimated_monthly_cost_usd_max,cost_category,additional_requirements,raspberry_pi_compatible,home_friendly,last_updated
+Filecoin station,Storage,Light Node,4,Any,8,16,500,SSD,FALSE,0,None,20,Broadband,"Linux,Windows,macOS",Filecoin,FIL,10,50,Low,For wallet and blockchain interaction only,FALSE,TRUE,2025-01-01
+AIOZ,CDN/AI,Standard Node,1,Any,0.5,2,50,Any,FALSE,0,None,20,Broadband,"Linux,Windows,macOS",Ethereum,AIOZ,5,20,Very Low,Additional 20GB for AI tasks,TRUE,TRUE,2025-01-01
+Mysterium,VPN,Node,1,Any,1,2,5,Any,FALSE,0,None,10,Broadband,"Linux,Windows,macOS",Ethereum,MYST,2,15,Very Low,Raspberry Pi 3 compatible,TRUE,TRUE,2025-01-01
+Theta,Streaming,Edge,2,Any,4,8,64,Any,FALSE,0,None,10,Broadband,"Linux,Windows,macOS",Theta,TFUEL,15,75,Low,256GB+ recommended for AI models,TRUE,TRUE,2025-01-01
+Nosana,AI Compute,GPU Host,2,Any,4,16,1000,SSD,TRUE,6,NVIDIA RTX series,100,Broadband,"Linux,Windows",Solana,NOS,100,400,Medium,Supports 19 RTX models; NOS staking required,FALSE,TRUE,2025-01-01
+Swarm,Storage,Bee Full Node,2,2GHz dual-core,4,8,30,SSD,FALSE,0,None,10,Broadband,"Linux,Windows,macOS",Ethereum,BZZ,10,50,Low,Requires Gnosis Chain RPC endpoint,TRUE,TRUE,2025-01-01
+Sentinel,VPN,dVPN Node,2,Any,2,4,10,SSD,FALSE,0,None,20,Unmetered,Linux,Cosmos,DVPN,5,50,Low,Avoid major cloud providers,TRUE,TRUE,2025-01-01
+Autonomi,Storage,Node,1,Any,0.5,2,10,Any,FALSE,0,None,5,Broadband,"Linux,Windows,macOS",Autonomi,ANT,1,10,Very Low,Raspberry Pi compatible; Ethereum address for rewards,TRUE,TRUE,2025-01-01
