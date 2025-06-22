@@ -1,4 +1,4 @@
-module depin-compatibility-api
+module github.com/simoncrean/api-predict
 
 go 1.24.4
 

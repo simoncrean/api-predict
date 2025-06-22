@@ -10,9 +10,9 @@ import (
 	"syscall"
 	"time"
 
-	"api-predict/internal/api"
-	"api-predict/internal/data"
-	"api-predict/internal/service"
+	"github.com/simoncrean/api-predict/internal/api"
+	"github.com/simoncrean/api-predict/internal/data"
+	"github.com/simoncrean/api-predict/internal/service"
 
 	"github.com/gin-gonic/gin"
 )
